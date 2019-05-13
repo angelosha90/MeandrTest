@@ -1,0 +1,56 @@
+.buttonWrapper{
+	position: absolute;
+	text-align: center;
+}
+div.btn {
+	width: 846px;
+	height: 242px;
+	background: #FFFFFF;
+	margin-top: 22%;
+	margin-left: 35%;
+	}
+button {
+	background-color: rgba(135, 135, 135, 0.05); 
+	top: 41.32%;
+	bottom: 36.36%
+	outline: none;
+	box-shadow: none;
+	border:none;
+}
+button.circle {
+	
+	height: 54px;
+	width: 54px;
+	border-radius: 111px;
+	left: 11.82%;
+	right: 81.8%;
+	}
+button.ellipse {
+	height: 54px;
+	width: 236px;
+	border-radius: 111px;
+	left: 49.41%;
+	right: 22.7%;
+	
+}
+button.img {
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	left: 120px;
+	top: 120px;
+}
+a {
+	text-decoration: none;
+	font-family:"Gilroy";
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #222222;
+	font-weight: 900;
+}
+
+a:hover {
+	text-decoration: underline;
+}

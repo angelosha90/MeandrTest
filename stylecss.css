@@ -1,0 +1,404 @@
+/*global*/
+html {
+	background: #F7F5FA;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {	
+	position: relative;
+	width: 1440px;
+}
+
+a {
+	text-decoration: none;
+	font-family:"Gilroy";
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #222222;
+	font-weight: 900;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.main {
+	width: 1440px;
+	height: 480px;
+	background-color: #FFFFFF;
+	height: 100vh;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main_title {
+	width: 692px;
+	height: 54px;
+	left: 374px;
+	top: 165px;
+	font-size: 48px;
+	line-height: 54px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	font-family: DIN Pro;
+	font-weight: normal;
+	color: #222222;
+	margin-bottom: 24px;
+}
+.main_description {
+	width: 760px;
+	height: 27px;
+	left: 340px;
+	top: 243px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;/* identical to box height */
+	text-align: center;
+	color: #4A4556;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+span.main_letter {
+	color: #F47821;
+}
+
+button {
+	background-color: rgba(135, 135, 135, 0.05); 
+	height: 54px;
+	width: 54px;
+	border-radius: 111px;
+	left: 43.06%;
+	right: 53.19%;
+	top: 7.41%;
+	bottom: 91.25%;
+	outline: none;
+	box-shadow: none;
+	border: none;
+}
+
+.main_button {
+	left: 46.25%;
+	right: 42.64%;
+	top: 7.86%;
+	bottom: 91.65%;
+}
+
+button.img{
+	width: 14px;
+	height: 14px;
+	left: 640px;
+	top: 320px;
+}
+
+.picture {
+	width: 1440px;
+	height: 1045px;
+	left: 0px;
+	top: 480px;
+	background: url(image.png);
+	background-repeat: repeat-x
+}
+ 
+.d-table {
+  position: absolute;
+  display: table;
+  width: 972px;
+  height: 464px;
+  top: 1155px;
+  left: 234px;
+  border-collapse: collapse;
+}
+
+.d-tr {
+  display: table-row;
+}
+
+.d-td {
+	width: 486px;
+	height: 232px;
+	left: 234px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background: #FFFFFF;
+	border: 1px solid #EDEDED;
+}
+
+.cellsHeader {
+	width: 179px;
+	height: 19px;
+	left: 294px;
+	top: 1031px;
+	text-align: left;
+	margin-top: 30px;
+	margin-left: 60px;
+	font-family: DIN Pro;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 19px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #F47821;
+}
+
+.cellsText {
+	width: 337px;
+	height: 90px;
+	left: 294px;
+	top: 1062px;
+	margin-top: 12px;
+	margin-left: 60px;
+	text-align: left;
+	font-family: DIN Pro;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: -0.03em;
+	color: #222222;
+}
+
+.afterTable {
+	width: 1440px;
+	height: 737px;
+	left: 0px;
+	top: 1525px;
+	background: #FFFFFF
+}
+
+.afterTableHeader {
+	width: 251px;
+	height: 60px;
+	left: 334px;
+	top: 1605px;
+	padding-top: 80px;
+	margin-left: 334px;
+	font-family: DIN Pro;
+	font-size: 48px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #222222;
+}
+
+.afterTableText {
+	width: 773px;
+	height: 473px;
+	left: 334px;
+	top: 1689px;
+	padding-top: 24px;
+	margin-left: 334px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #4E4D53;
+}
+
+.priority {
+	width: 1440px;
+	height: 534px;
+}
+
+.priorityText{
+	width: 524px;
+	height: 50px;
+	margin-top: 120px;
+	margin-left: 458px;
+	font-family: DIN Pro;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #000000;
+	margin-bottom: 60px;
+}
+
+.priorityTable {
+    display: table;
+	width: 1139px;
+	height: 264px;
+	margin-left: 135px;
+	border-collapse: collapse;
+}
+
+.priorityTr {
+	display: table-row;
+}
+
+.priorityTd {
+	width: 326px;
+	height: 264px;
+	left: 929px;
+	top: 2492px;
+	display: table-cell;
+
+}
+
+.priorityCellImage1 {
+	width: 51.96px;
+	height: 52px;
+	left: 135px;
+	top: 2492px;
+}
+
+.priorityCellHeader{
+	width: 262px;
+	height: 26px;
+	left: 135px;
+	top: 2574px;
+	font-family: DIN Pro;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 25px;
+	color: #000000;
+}
+
+.priorityCellImage2{
+	width: 24px;
+	height: 2px;
+	left: 135px;
+	top: 2622px;
+}
+
+.priorityCellText {
+	width: 326px;
+	height: 105px;
+	left: 135px;
+	top: 2651px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #4E4D53;
+}
+
+.senderFormContainer {
+	width: 1440px;
+	height: 1130px;
+	left: 0px;
+	top: 2916px;
+	background: #161616;
+}
+
+.senderFormContainerText {
+	width: 453px;
+	height: 52px;
+	left: 494px;
+	top: 3016px;
+	padding-top: 100px;
+	margin-left: 494px;
+	padding-bottom: 60px;
+	font-family: DIN Pro;
+	font-size: 40px;
+	line-height: 52px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+}
+.formLabelWrapper {
+	width: 667px;
+	height: 120px;
+	left: 341px;
+	top: 3128px;
+	margin-left: 341px;
+	margin-top: 60px;
+}
+
+.senderFormNumberContainer{
+	width: 64px;
+	height: 64px;
+	left: 341px;
+	top: 3128px;
+	border: 1px solid rgba(255,255,255,0.23);
+	border-radius: 32px;
+	float: left;
+	}
+.senderFormNumber {
+	width: 12px;
+	height: 24px;
+	left: 367px;
+	top: 3148px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	color: #F47821;
+	margin-left: 26px;
+	}
+.submitBtn {
+	width: 574px;
+	height: 54px;
+	left: 433px;
+	bottom: 120px;
+	margin-top: 60px;
+	margin-left: 433px;
+	font-family: Gilroy;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #F47821;
+	background-color: #FFFFFF;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+	border-radius: 111px;
+	opacity: 1;
+	}
+
+label[for] {
+	width: 575px;
+	height: 50px;
+	left: 433px;
+	top: 3150px;
+	padding-top: 22px;
+	margin-left: 92px;
+
+	font-family: DIN Pro;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: -0.01em;
+	display: block;
+	color: #FFFFFF;
+	}
+
+input[type=text],textarea[type=text] {
+	left: 433px;
+	top: 3246px;
+	display: block;
+    border: none;
+    border-bottom: 2px solid #F7F8FA;
+    opacity: 0.1;
+    float: left;
+    outline: none;
+    background: transparent;
+ }
+input[placeholder],textarea[placeholder] {
+	padding-bottom: 12px;
+	margin-left: 92px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 35px;
+	letter-spacing: -0.01em;
+	color: #FFFFFF;
+	opacity: 0.3;
+	}
+
+textarea.ask {
+	margin-top: 24px;
+}
